@@ -103,17 +103,17 @@
 &kp TAB       &kp AR_ARABIC_DAD              &kp AR_ARABIC_SAD             &kp AR_ARABIC_THEH             &kp AR_ARABIC_QAF                &kp AR_ARABIC_FEH  &none                                                     &none  &kp AR_ARABIC_GHAIN         &kp AR_ARABIC_AIN          &kp AR_ARABIC_HEH                &kp AR_ARABIC_HAH              &kp AR_ARABIC_JEEM            &kp AR_BACKSLASH
 &kp ESC       &hml LEFT_GUI AR_ARABIC_SHEEN  &hml LEFT_ALT AR_ARABIC_SEEN  &hml LEFT_SHIFT AR_ARABIC_YEH  &hml LEFT_CONTROL AR_ARABIC_BEH  &kp AR_ARABIC_LAM  &none      &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none  &kp AR_ARABIC_ALEF          &hmr RCTRL AR_ARABIC_TEH   &hmr RIGHT_SHIFT AR_ARABIC_NOON  &hmr RIGHT_ALT AR_ARABIC_MEEM  &hmr RIGHT_GUI AR_ARABIC_KAF  &kp AR_ARABIC_TAH
 &kp DELETE    &kp AR_ARABIC_YEH_HAMZA        &kp AR_ARABIC_HAMZA           &kp AR_ARABIC_WAW_HAMZA        &kp AR_ARABIC_REH                &kp AR_ARABIC_DAL                        &kp HOME      &kp PG_UP                    &kp AR_ARABIC_ALEF_MAKSURA  &kp AR_ARABIC_TEH_MARBUTA  &kp AR_ARABIC_WAW                &kp AR_ARABIC_ZAIN             &kp AR_ARABIC_THAL            &kp BACKSPACE
-&mo 8         &kp GRAVE                      &kp CAPS                      &kp LEFT                       &kp RIGHT                                           &kp SPACE  &kp ENTER  &kp END       &kp PG_DN  &mo 6      &mo 5                              &kp DOWN                   &kp UP                           &kp AR_RIGHT_BRACKET           &kp AR_LEFT_BRACKET           &mo 8
+&mo 8         &none                          &none                         &kp LEFT                       &kp RIGHT                                           &kp SPACE  &kp ENTER  &kp END       &kp PG_DN  &mo 6      &mo 5                              &kp DOWN                   &kp UP                           &kp AR_RIGHT_BRACKET           &kp AR_LEFT_BRACKET           &mo 8
             >;
         };
 
         arabic_shifted {
             bindings = <
-&kp AR_PLUS  &kp AR_EXCL  &kp AR_AT  &kp AR_POUND  &kp AR_DOLLAR  &kp AR_PERCENT  &trans                                      &trans  &kp AR_CARET  &kp AR_AMPS  &kp AR_ASTRK  &kp AR_RIGHT_PARENTHESIS  &kp AR_LEFT_PARENTHESIS  &kp AR_UNDER
-&trans       &trans       &trans     &trans        &trans         &trans          &trans                                      &trans  &trans        &trans       &trans        &trans                    &trans                   &trans
-&trans       &trans       &trans     &trans        &trans         &trans          &trans  &trans  &trans      &trans  &trans  &trans  &trans        &trans       &trans        &trans                    &trans                   &trans
-&trans       &trans       &trans     &trans        &trans         &trans                          &trans      &trans                  &trans        &trans       &trans        &trans                    &trans                   &trans
-&trans       &trans       &trans     &trans        &trans                         &trans  &trans  &trans      &trans  &trans  &trans                &trans       &trans        &kp AR_RIGHT_BRACE        &kp AR_LEFT_BRACE        &trans
+&kp AR_PLUS  &kp AR_EXCL  &kp AR_AT  &kp AR_POUND  &kp AR_DOLLAR  &kp AR_PERCENT         &trans                                      &trans  &kp AR_CARET              &kp AR_AMPS  &kp AR_ASTRK  &kp AR_RIGHT_PARENTHESIS  &kp AR_LEFT_PARENTHESIS  &kp AR_UNDER
+&trans       &trans       &trans     &trans        &trans         &trans                 &trans                                      &trans  &kp AR_ARABIC_ALEF_HAMZA  &trans       &trans        &kp AR_ARABIC_KHAH        &trans                   &kp AR_PIPE
+&trans       &trans       &trans     &trans        &trans         &kp AR_ARABIC_TATWEEL  &trans  &trans  &trans      &trans  &trans  &trans  &kp AR_ARABIC_ALEF_HAMZA  &trans       &trans        &trans                    &trans                   &kp AR_ARABIC_ZAH
+&trans       &trans       &trans     &trans        &trans         &trans                                 &trans      &trans                  &trans                    &trans       &trans        &trans                    &trans                   &trans
+&trans       &trans       &trans     &trans        &trans                                &trans  &trans  &trans      &trans  &trans  &trans                            &trans       &trans        &kp AR_RIGHT_BRACE        &kp AR_LEFT_BRACE        &trans
             >;
         };
 
