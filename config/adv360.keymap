@@ -109,21 +109,21 @@
 
         arabic_shifted {
             bindings = <
-&kp AR_PLUS  &kp AR_EXCL  &kp AR_AT  &kp AR_POUND  &kp AR_DOLLAR  &kp AR_PERCENT         &trans                                      &trans  &kp AR_CARET              &kp AR_AMPS  &kp AR_ASTRK  &kp AR_RIGHT_PARENTHESIS  &kp AR_LEFT_PARENTHESIS  &kp AR_UNDER
-&trans       &trans       &trans     &trans        &trans         &trans                 &trans                                      &trans  &kp AR_ARABIC_ALEF_HAMZA_UP  &trans       &trans        &kp AR_ARABIC_KHAH        &trans                   &kp AR_PIPE
+&kp AR_PLUS  &kp AR_EXCL  &kp AR_AT  &kp AR_POUND  &kp AR_DOLLAR  &kp AR_PERCENT         &trans                                      &trans  &kp AR_CARET                   &kp AR_AMPS  &kp AR_ASTRK  &kp AR_RIGHT_PARENTHESIS  &kp AR_LEFT_PARENTHESIS  &kp AR_UNDER
+&trans       &trans       &trans     &trans        &trans         &trans                 &trans                                      &trans  &kp AR_ARABIC_ALEF_HAMZA_UP    &trans       &trans        &kp AR_ARABIC_KHAH        &trans                   &kp AR_PIPE
 &trans       &trans       &trans     &trans        &trans         &kp AR_ARABIC_TATWEEL  &trans  &trans  &trans      &trans  &trans  &trans  &kp AR_ARABIC_ALEF_HAMZA_DOWN  &trans       &trans        &trans                    &trans                   &kp AR_ARABIC_ZAH
-&trans       &trans       &trans     &trans        &trans         &trans                                 &trans      &trans                  &trans                    &trans       &trans        &trans                    &trans                   &trans
-&trans       &trans       &trans     &trans        &trans                                &trans  &trans  &trans      &trans  &trans  &trans                            &trans       &trans        &kp AR_RIGHT_BRACE        &kp AR_LEFT_BRACE        &trans
+&trans       &trans       &trans     &trans        &trans         &trans                                 &trans      &trans                  &trans                         &trans       &trans        &trans                    &trans                   &trans
+&trans       &trans       &trans     &trans        &trans                                &trans  &trans  &trans      &trans  &trans  &trans                                 &trans       &trans        &kp AR_RIGHT_BRACE        &kp AR_LEFT_BRACE        &trans
             >;
         };
 
         arabic_specials {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans                  &trans                  &trans                  &trans                &trans  &trans                                      &trans  &trans  &trans  &trans               &trans      &trans                       &trans
+&trans  &kp AR_ARABIC_KASRATAN  &kp AR_ARABIC_FATHATAN  &kp AR_ARABIC_DAMMATAN  &kp AR_ARABIC_SHADDA  &trans  &trans                                      &trans  &trans  &trans  &trans               &trans      &kp AR_ARABIC_SEMICOLON      &trans
+&trans  &kp AR_ARABIC_KASRA     &kp AR_ARABIC_FATHA     &kp AR_ARABIC_DAMMA     &kp AR_ARABIC_SUKUN   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans               &trans      &kp AR_COLON                 &kp AR_DOUBLE_QUOTES
+&trans  &trans                  &trans                  &trans                  &trans                &trans                  &trans      &trans                  &trans  &trans  &kp AR_ARABIC_COMMA  &kp AR_DOT  &kp AR_ARABIC_QUESTION_MARK  &trans
+&trans  &trans                  &trans                  &trans                  &trans                        &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans               &trans      &trans                       &trans
             >;
         };
 
